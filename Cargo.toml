@@ -1,0 +1,6 @@
+[workspace]
+resolver = "3"
+members = ["crates/pombo-core", "crates/pombo-daemon", "spikes/quic-hello"]
+
+[workspace.package]
+edition = "2024"
